@@ -1029,6 +1029,7 @@ a:focus {
   text-align: center;
   border: 5px solid #eef2f6;
   padding: 50px 25px;
+  height: 40vh;
 }
 .contact-block i {
   font-size: 50px;
