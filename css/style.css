@@ -1568,3 +1568,44 @@ a:focus {
 .row-cols-md-4 .col {
   padding: 15px;
 }
+
+/* Unique Styles for "Things We Don’t Do" Section */
+.not-appropriate-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 25px;
+  height: 100%;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.not-appropriate-card:hover {
+  transform: translateY(-5px);
+}
+
+.not-appropriate-card i {
+  font-size: 50px;
+  color: #dc3545; /* Bootstrap's danger color */
+}
+
+.not-appropriate-card h4 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.not-appropriate-card p,
+.not-appropriate-card ul {
+  font-size: 16px;
+  color: #666;
+  margin-top: 10px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 767px) {
+  .not-appropriate-card {
+    height: auto;
+    padding: 30px;
+  }
+}
