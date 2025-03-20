@@ -709,7 +709,7 @@ a:focus {
 .service .service-item {
   background: #fff;
   padding: 30px;
-  height: 30vh;
+  height: 40vh;
   border-radius: 5px;
 }
 .service .icon {
@@ -1618,4 +1618,10 @@ a:focus {
   padding: 30px;
   height: 62vh;
   border-radius: 5px;
+}
+
+/* button div */
+.buttonDiv {
+  margin-left: 30vw;
+  margin-top: 5vh;
 }
