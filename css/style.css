@@ -115,7 +115,7 @@ input[type="tel"]:focus {
 }
 .btn.btn-icon i {
   border-left: 1px solid rgba(255, 255, 255, 0.09);
-  padding-left: 15px;
+  padding-left: 5px;
 }
 .btn:focus {
   outline: 0px;
@@ -897,6 +897,7 @@ a:focus {
 .testimonial-block {
   position: relative;
   margin-bottom: 20px;
+  min-height: 60vh;
 }
 .testimonial-block p {
   background: #fff;
