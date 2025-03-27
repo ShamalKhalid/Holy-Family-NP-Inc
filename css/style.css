@@ -897,7 +897,7 @@ a:focus {
 .testimonial-block {
   position: relative;
   margin-bottom: 20px;
-  min-height: 60vh;
+  min-height: 70vh;
 }
 .testimonial-block p {
   background: #fff;
